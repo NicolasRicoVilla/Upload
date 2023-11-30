@@ -1,0 +1,282 @@
+body {
+    background-image: url('https://c0.wallpaperflare.com/preview/536/351/703/access-app-application-archive.jpg');
+    background-size: cover;
+  }
+.subject {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-azul-degradado_23-2149322706.jpg');
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    height: 150px;
+}
+
+.subject img {
+    width: 100%;
+    height: auto;
+}
+
+.subject div {
+    padding: 10px;
+}
+
+
+
+
+#anadirFormulario {
+    display: none;
+    text-align: left;
+}
+
+#botonAgregar {
+    display: block;
+    margin: 10px auto;
+    background-color: #e74c3c;
+
+}
+
+#backgroundButton {
+    margin: 10px auto;
+}
+#close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#volver {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 9999;
+    color: #fff; 
+    background-color: #e74c3c; 
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+h1 {
+    color: #333;
+}
+
+#anadirFormulario {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#anadirFormulario label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#anadirFormulario input,
+#anadirFormulario select,
+#anadirFormulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#anadirFormulario button {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 15px 170px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#anadirFormulario input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#cambiarfondo{
+    display: block;
+    margin: 10px auto;
+    padding: 15px 85px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#botonAgregar,
+#editar {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#cambiarfondo {
+    background-color: #061016;
+}
+
+#editar {
+    background-color: #f39c12; 
+}
+
+#imagenFondo{
+    display: none;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+#botones-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.subject {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subject div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#anadirFormulario {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botones-container button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#volver {
+    color: #fff;
+    background-color: #e74c3c; 
+}
+
+#formularioEditar {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#formularioEditar label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#formularioEditar input,
+#formularioEditar select,
+#formularioEditar textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#formularioEditar button {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 10px 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formularioEditar input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+
+button.editar-button {
+    background-color: #e74c3c; 
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* colores sujetos*/
+.descargado {
+    border-color: green;
+}
+
+.vivo {
+    border-color: red;
+}
+
+.candidato {
+    color: green;
+}
+
+.colaborador {
+    color: orange;
+}
+
+.perpetrador {
+    color: red;
+}
